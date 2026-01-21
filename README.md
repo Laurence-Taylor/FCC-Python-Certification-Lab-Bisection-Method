@@ -18,10 +18,14 @@ Objective: Fulfill the user stories below and get all the tests to pass to compl
         The maximum number of iterations to perform. You should set a default number of iterations.
 
     The square_root_bisection function should:
-        Raise a ValueError with the message Square root of negative number is not defined in real numbers if the number passed to the function is negative.
-        For numbers 0 and 1, print the message: The square root of [number] is [number] and return the number itself as the square root.
-        For any other positive number, print the approximate square root with the message: The square root of [square_target] is approximately [root] and return the computed root value.
-        If no value meets the tolerance condition, print a failure message: Failed to converge within [maximum] iterations and return None.
+        Raise a ValueError with the message Square root of negative number is not defined in real numbers if the number passed 
+        to the function is negative.
+        For numbers 0 and 1, print the message: The square root of [number] is [number] and return the number itself as the 
+        square root.
+        For any other positive number, print the approximate square root with the message: The square root of [square_target] 
+        is approximately [root] and return the computed root value.
+        If no value meets the tolerance condition, print a failure message: Failed to converge within [maximum] iterations and 
+        return None.
 
 Note: You cannot import any module for this lab.
 
